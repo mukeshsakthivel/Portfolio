@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.home {
+  display: flex;
+  height: 100vh; /* Fixed height for the Razor-Blade shape */
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Prevent overflow inside the Razor-Blade section */
+}
+
+/* Left Section */
+.left-section {
+  width: 50%; /* Half of the screen */
+  height: 100%;
+  background: #E5E5E5;
+}
+
+/* Right Section */
+.right-section {
+  width: 50%; /* Half of the screen */
+  height: 100%;
+  background: #000000;
+  position: relative;
+}
+
+.right-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px; /* Adjust for razor-blade position */
+  border-left:100px solid #E5E5E5;
+  border-bottom: 200vh solid transparent; /* Fixed to viewport height */
+}
+
+.image {
+ margin-left: 400px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Scrollable content below */
+.content {
+  padding: 20px;
+  height: auto;
+  background-color: #E5E5E5;
+}
+
+
