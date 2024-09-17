@@ -3,6 +3,8 @@ import Home from './page/Home';
 import NavBar from './component/NavBar';
 import AboutMe from './page/AboutMe';
 import { Skill } from './page/Skill';
+import Project from './page/Project';
+
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
       <NavBar/>
       <AboutMe/>
       <Skill/>
+      <Project/>
       
    </>
   );

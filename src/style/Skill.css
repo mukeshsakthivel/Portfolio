@@ -1,0 +1,166 @@
+.fullskill{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.skillbox{
+    display: flex;
+    justify-content: center;
+}
+.skillbox h1{
+    text-align: center;
+    padding: 20px 40px;
+    border: 5px solid #000000;
+    margin-top: 10px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    margin-left: -3rem;
+    font-weight: 550;
+}
+.allskill{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.fronttitle{
+    margin-left: 18rem ;
+    padding-top: 5rem;
+    letter-spacing: 2.5px;
+
+
+}
+
+.frontimageskill{
+    display: flex;
+    margin-left: 18rem;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+.html-icon-style {
+    color: #ff7b00;
+    font-size: 5rem;
+}
+
+.css-icon-style {
+    font-size: 5rem;
+    color: #2196F3;
+   
+
+}
+.js-icon-style {
+    font-size: 4.5rem;
+    color: #F7DF1E;
+    background-color: #000000;
+
+}
+.react-icon-style {
+    font-size: 5rem;
+    color: #53C1DE;
+    margin-bottom: -5px;
+    margin-left: 1.3rem;
+}
+
+.fronttext{
+    display: flex;
+    margin-left: 19rem;
+    gap: 12.9rem;
+    padding-top: 8px;
+    
+}
+.css{
+    margin-left: -1rem;
+    font-weight: 100;
+}
+.react{
+    margin-right: -10rem;
+}
+
+.fronttext h3 {
+    font-weight: 450;
+}
+
+
+/* backend */
+.backend{
+    margin-top: -30px;
+}
+.backtitle{
+    margin-left: 18rem ;
+    padding-top: 5rem;
+    letter-spacing: 2.5px;
+}
+.backimageskill{
+    display: flex;
+    margin-left: 18rem;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+.backimageskill{
+    display: flex;
+    margin-left: 18rem;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+
+.java-icon-style{
+    font-size: 5rem;
+    color: red;
+}
+.spring-icon-style{
+    font-size: 5rem;
+    color: rgb(9, 195, 9);
+}
+.backtext{
+    display: flex;
+    margin-left: 19rem;
+    gap: 9.3rem;
+    padding-top: 8px;
+}
+.backtext h3{
+    font-weight: 450;
+}
+
+/* backend */
+
+.database{
+    margin-top: -30px;
+    }
+    
+.dbtitle{
+    margin-left: 18rem ;
+    padding-top: 5rem;
+    letter-spacing: 2.5px;
+}
+.dbimageskil{
+    display: flex;
+    margin-left: 18rem;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+.sql-icon-style{
+    font-size: 5rem;
+    color: #023746;
+}
+.mongo-icon-style{
+    font-size: 5rem;
+    color: #12924F;
+}
+.dbtext{
+    display: flex;
+    margin-left: 19rem;
+    gap: 10.7rem;
+    padding-top: 8px;
+}
+.endline-skill{
+    text-align: center;
+}
+.endline-skill img{
+    width: 10rem;
+    margin-left: -4rem;
+    padding: 3rem 0;
+}
