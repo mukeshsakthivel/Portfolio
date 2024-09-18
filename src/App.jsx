@@ -4,6 +4,7 @@ import NavBar from './component/NavBar';
 import AboutMe from './page/AboutMe';
 import { Skill } from './page/Skill';
 import Project from './page/Project';
+import Qualification from './page/Qualification';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <NavBar/>
       <AboutMe/>
       <Skill/>
+      <Qualification/>
       <Project/>
       
    </>

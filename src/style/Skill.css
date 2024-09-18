@@ -2,7 +2,6 @@
     background-color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
     font-optical-sizing: auto;
-
     font-style: normal;
 }
 
@@ -162,5 +161,5 @@
 .endline-skill img{
     width: 10rem;
     margin-left: -4rem;
-    padding: 3rem 0;
+    padding-top: 2rem;
 }
