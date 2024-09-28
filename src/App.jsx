@@ -1,23 +1,22 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './page/Home';
-import NavBar from './component/NavBar';
-import AboutMe from './page/AboutMe';
-import { Skill } from './page/Skill';
-import Project from './page/Project';
-import Qualification from './page/Qualification';
+import PageController from './page/PageController';
+import { Toaster } from 'react-hot-toast';
+
+
 
 
 const App = () => {
   return (
-    <>
-      <Home/>
-      <NavBar/>
-      <AboutMe/>
-      <Skill/>
-      <Qualification/>
-      <Project/>
-      
-   </>
+    <BrowserRouter>
+      <Toaster position='top-center' toastOptions={{duration: 2000}} />
+      <Routes>
+        
+        <Route path='/' element={<PageController />}/>
+        
+        
+
+      </Routes>
+    </BrowserRouter>
   );
 };
 

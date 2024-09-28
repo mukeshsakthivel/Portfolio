@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../style/Skill.css';
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -9,10 +9,22 @@ import { FaJava } from "react-icons/fa6";
 import { SiSpring } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
-import endLine from '../assets/lineimage.png'
+import endLine from '../assets/lineimage.png';
 export const Skill = () => {
+
+  useEffect(() => {
+    // This logs when the Skill component is mounted and confirms the section is rendered
+    const skillSection = document.getElementById("skill");
+    if (skillSection) {
+      console.log("Skill section is rendered and found:", skillSection);
+    } else {
+      console.log("Skill section not found.");
+    }
+  }, []);
   return (
-    <div className="fullskill">
+    <section id="skill">
+
+<div className="fullskill"  >
       <div className="skillbox">
         <h1>SKILLS</h1>
       </div>
@@ -70,5 +82,8 @@ export const Skill = () => {
       </div>
     </div>
 
+    </section>
+    
   )
 }
+export default Skill;

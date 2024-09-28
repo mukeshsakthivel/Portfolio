@@ -7,7 +7,8 @@ import '../style/Qualification.css'
 
 const Qualification = () => {
   return (
-    <div className="fullQualification">
+    <section>
+      <div className="fullQualification" id='Qualification'>
       <div className="qualificationbox">
         <h3>Qualification</h3>
       </div>
@@ -62,7 +63,6 @@ const Qualification = () => {
             <p>Saravana Niketan School</p>
             <p>Percentage:79%</p>
             <p>Year of Completion:2019</p>
-
           </div>
         </div>
 
@@ -72,7 +72,10 @@ const Qualification = () => {
         <img src={endLine} alt="" />
       </div>
     </div>
+    </section>
+    
   )
 }
+
 
 export default Qualification

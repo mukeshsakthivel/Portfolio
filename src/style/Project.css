@@ -1,0 +1,257 @@
+.fullproject {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.tranding-slider {
+    position: relative;
+    height: 48rem;
+    padding: -2rem 0;
+}
+
+.tranding-slide {
+    position: relative;
+    width: 3rem;
+    height: 20rem;
+}
+
+.projectbox {
+    display: flex;
+    justify-content: center;
+}
+
+.projectbox h3 {
+    text-align: center;
+    padding: 20px 40px;
+    border: 5px solid #000000;
+    margin-top: 40px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -40px;
+}
+
+.tranding-slide {
+    padding-top: 4rem;
+    max-width: 30rem;
+    max-height: 33rem;
+}
+
+.sliding-img {
+    width: 28rem !important;
+    height: 29rem !important;
+    object-fit: cover;
+}
+
+.tranding-slide .tranding-slide-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#tranding .tranding-slide .swiper-slide-shadow-left,
+#tranding .tranding-slide .swiper-slide-shadow-right {
+    display: none !important;
+}
+
+/* Navigation Arrows */
+.tranding-slider-control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -10rem;
+    z-index: 10;
+    width: 100%;
+    
+}
+
+.tranding-slider-control .swiper-button-next,
+.tranding-slider-control .swiper-button-prev {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1)); */
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+.tranding-slider-control .swiper-button-next::after,
+.tranding-slider-control .swiper-button-prev::after {
+    font-size: 1.5rem;
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom: 60px;
+}
+
+.tranding-slider-control .swiper-button-next {
+    right: 43rem;
+}
+
+.tranding-slider-control .swiper-button-prev {
+    left: 38rem;
+}
+
+/* Pagination Dots */
+.tranding-slider-control .swiper-pagination {
+    position: absolute;
+    margin-bottom: 1.1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -2.5rem;
+}
+
+.tranding-slider-control .swiper-pagination-bullet {
+    width: 10px;
+    height: 9.5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tranding-slider-control .swiper-pagination-bullet-active {
+    background-color: #000000; /* Active dot color */
+}
+
+
+
+
+
+
+
+
+/* .fullproject{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.tranding-slider {
+    position: relative;
+    height: 52rem;
+    padding: 2rem 0;
+}
+
+.tranding-slide {
+    position: relative;
+    width: 37rem;
+    height: 30rem;
+}
+.projectbox{
+    display: flex;
+    justify-content: center;
+}
+.projectbox h3{
+    text-align: center;
+    padding: 20px 40px;
+    border:5px solid #000000;
+    margin-top: 40px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -40px;
+}
+
+.tranding-slide{
+    padding-top: 7rem;
+    max-width: 30rem;
+    max-height: 40rem;
+}
+
+.sliding-img {
+    width: 28rem !important;
+    height: 36rem !important;
+    object-fit: cover;
+}
+
+.tranding-slide .tranding-slide-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#tranding .tranding-slide .swiper-slide-shadow-left,
+#tranding .tranding-slide .swiper-slide-shadow-right {
+    display: none !important;
+}
+
+.tranding-slider-control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+
+
+    justify-content: space-between;
+    top: -1rem; 
+    z-index: 10; 
+    width: 100%; 
+    padding: 0 1rem; 
+}
+
+.tranding-slider-control .swiper-button-next {
+    display: block;
+    left: 58% !important;
+    transform: translateX(-58%) !important;
+}
+
+.tranding-slider-control .swiper-button-prev {
+    left: 10% !important;
+    transform: translateX(-30%) !important;
+}
+
+.tranding-slider-control .slider-arrow {
+    width: 3rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    left: 42%;
+    transform: translateX(-42%);
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+    font-size: 10rem;
+    color: #222224;
+
+    
+    position: absolute;
+    z-index: 11;
+
+}
+
+.tranding-slider-control .slider-arrow::after {
+    content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+    width: 30rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-active {
+    background: #ec994b;
+} */

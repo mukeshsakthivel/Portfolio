@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutPhoto from '../assets/photo2.jpg';
+import aboutPhoto from '../assets/AboutMe Photo.png';
 import { MdCloudDownload } from 'react-icons/md';
 import resume from '../resume/Mukesh-resume.pdf';
 import { Link as ScrollLink } from 'react-scroll';
@@ -8,7 +8,8 @@ import '../style/AboutMe.css';
 const AboutMe = () => {
     return (
         <>
-            <div className="fullAbout">
+        <section id='AboutMe'>
+        <div className="fullAbout" >
                 <div className='about'>
                     <h1>ABOUT ME</h1>
                 </div>
@@ -26,7 +27,7 @@ const AboutMe = () => {
                             <p>I am a highly motivated and dedicated developer with expertise in front-end technologies and a strong foundation in Spring Boot, SQL, and MongoDB development. As a fresher, I bring fresh ideas, a passion for innovation, and a commitment to building scalable, efficient, and robust applications. My continuous learning approach drives me to enhance my skills and deliver top-quality results. I thrive in collaborative environments and am eager to contribute to innovative projects that make a meaningful impact.</p>
                         </div>
                         <div className="about-button">
-                            <ScrollLink to="#" smooth={true} className="about-scroll">View Project</ScrollLink>
+                            <ScrollLink to="Project" smooth={true} className="about-scroll">View Project</ScrollLink>
                             <a download="" href={resume} className="resume-download"> Download Resume<MdCloudDownload className='resume-icon' /></a>
                         </div>
                         <div className="endline">
@@ -37,6 +38,8 @@ const AboutMe = () => {
                 </div>
                
             </div>
+        </section>
+            
         </>
     )
 }

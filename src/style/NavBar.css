@@ -18,12 +18,23 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    display: flex;
+    
 }
+.navbar.visible {
+    display: block; /* Show navbar */
+    display: flex;
+  }
+  
+  .navbar.hidden {
+    display: none; /* Keep it hidden */
+   
+  }
 
 .sticky {
     position:sticky;  
     top:0;
-    z-index: 1;
+    z-index:99999;
 }
 
 .navbar p {
@@ -39,12 +50,13 @@
     display: flex;
     text-decoration: none;
     list-style: none;
+    
 
 }
 
 .navbar-menu ul li {
     cursor: pointer;
-    padding: 0px 15px;
+    padding: 0px 25px;
 }
 
 .contact {

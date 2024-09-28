@@ -28,7 +28,7 @@
 }
 .fronttitle{
     margin-left: 18rem ;
-    padding-top: 5rem;
+    padding-top: 3.5rem;
     letter-spacing: 2.5px;
 
 
@@ -38,27 +38,27 @@
     display: flex;
     margin-left: 18rem;
     gap: 10rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 .html-icon-style {
     color: #ff7b00;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .css-icon-style {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #2196F3;
    
 
 }
 .js-icon-style {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: #F7DF1E;
     background-color: #000000;
 
 }
 .react-icon-style {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #53C1DE;
     margin-bottom: -5px;
     margin-left: 1.3rem;
@@ -66,8 +66,8 @@
 
 .fronttext{
     display: flex;
-    margin-left: 19rem;
-    gap: 12.9rem;
+    margin-left: 18.5rem;
+    gap: 12rem;
     padding-top: 8px;
     
 }
@@ -90,7 +90,7 @@
 }
 .backtitle{
     margin-left: 18rem ;
-    padding-top: 5rem;
+    padding-top: 4rem;
     letter-spacing: 2.5px;
 }
 .backimageskill{
@@ -107,18 +107,18 @@
 }
 
 .java-icon-style{
-    font-size: 5rem;
+    font-size: 4rem;
     color: red;
 }
 .spring-icon-style{
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(9, 195, 9);
 }
 .backtext{
     display: flex;
-    margin-left: 19rem;
-    gap: 9.3rem;
-    padding-top: 8px;
+    margin-left: 18.5rem;
+    gap: 8.3rem;
+    padding-top: 11px;
 }
 .backtext h3{
     font-weight: 450;
@@ -132,7 +132,7 @@
     
 .dbtitle{
     margin-left: 18rem ;
-    padding-top: 5rem;
+    padding-top: 4rem;
     letter-spacing: 2.5px;
 }
 .dbimageskil{
@@ -142,18 +142,18 @@
     padding-top: 2rem;
 }
 .sql-icon-style{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #023746;
 }
 .mongo-icon-style{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #12924F;
 }
 .dbtext{
     display: flex;
     margin-left: 19rem;
-    gap: 10.7rem;
-    padding-top: 8px;
+    gap: 9rem;
+    padding-top: 11px;
 }
 .endline-skill{
     text-align: center;
