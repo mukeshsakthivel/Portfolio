@@ -67,7 +67,7 @@ const Home = () => {
         </div>
         <div className="homeimage">
           <div className="image-abouts">
-            <img src={homePhoto} alt="" className='max-h-screen mt-[-5rem] ml-40' />
+            <img src={homePhoto} alt="" className='max-h-screen w-[47rem] mt-[-3rem] ml-36' />
           </div>
         </div>
       </div>
