@@ -18,7 +18,6 @@
 
     .section-heading {
         @apply text-3xl font-semibold tracking-[10px] mb-mb25 text-black text-center border-[5px] border-black px-10 py-5;
-        margin-left: -50px;
     }
 
     @media (max-width: 1440px) {
@@ -75,7 +74,6 @@
 
     .tranding-slider-control {
         @apply relative flex items-center justify-center top-4;
-        
     }
 
     /* Ensure next/prev buttons are visible and positioned correctly */
@@ -90,9 +88,6 @@
         align-items: center;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Visible shadow for emphasis */
         z-index: 1000;
-       
-        margin-left: 20px;
-        margin-right: 70px;
     }
 
     .swiper-button-next {
@@ -103,7 +98,6 @@
     .swiper-button-prev {
         left: 10px; /* Ensure it's aligned to the left side */
         right: auto;
-        
     }
 
     /* Media queries for responsiveness */
@@ -136,13 +130,13 @@
     /* Swiper pagination styles */
     .tranding-slider-control .swiper-pagination {
         @apply relative w-96 mt-6;
-        margin-left: -50px;
-        padding: 20px;
-        padding-bottom: -10px;
-
     }
 
     .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
         filter: drop-shadow(0px 8px 24px rgba(210, 6, 37, 0.1));
+    }
+
+    .tranding-slider-control .swiper-pagination .swiper-pagination-active {
+        background: #ec994b;
     }
 }

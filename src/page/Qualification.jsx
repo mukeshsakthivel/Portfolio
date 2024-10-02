@@ -68,7 +68,7 @@ const Qualification = () => {
 
       </div>
 
-      <div className="endline-qualificatoin">
+      <div className="endline-qualificatoin mb-[-3rem]">
         <img src={endLine} alt="" />
       </div>
     </div>

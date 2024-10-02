@@ -31,7 +31,8 @@
     
 }
 .line-contact{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .line-contact img{
    width: 10rem;

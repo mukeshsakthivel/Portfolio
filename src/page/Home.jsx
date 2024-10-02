@@ -4,6 +4,7 @@ import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import { SiHackerrank, SiLeetcode } from 'react-icons/si';
 import { Link as ScrollLink } from 'react-scroll';
 import '../style/Home.css';  // Assuming you have the necessary styles
+import homePhoto from '../assets/frontimage.webp';
 
 const Home = () => {
   return (
@@ -63,6 +64,11 @@ const Home = () => {
               </ScrollLink>
             </li>
           </ul>
+        </div>
+        <div className="homeimage">
+          <div className="image-abouts">
+            <img src={homePhoto} alt="" className='max-h-screen mt-[-5rem] ml-40' />
+          </div>
         </div>
       </div>
     </section>

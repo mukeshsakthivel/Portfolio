@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutPhoto from '../assets/AboutMe Photo.png';
 import { MdCloudDownload } from 'react-icons/md';
-import resume from '../resume/Mukesh-resume.pdf';
+import resume from '../resume/Mukesh-Resume(KNCET).pdf';
 import { Link as ScrollLink } from 'react-scroll';
 import endLine from '../assets/lineimage.png'
 import '../style/AboutMe.css';
@@ -28,11 +28,11 @@ const AboutMe = () => {
                         </div>
                         <div className="about-button">
                             <ScrollLink to="Project" smooth={true} className="about-scroll">View Project</ScrollLink>
-                            <a download="" href={resume} className="resume-download"> Download Resume<MdCloudDownload className='resume-icon' /></a>
+                            <a download="" href={resume} className="resume-download flex"> Download Resume<MdCloudDownload className='resume-icon mt-2 ml-2' /></a>
                         </div>
-                        <div className="endline">
+                        {/* <div className="endline">
                         <img src={endLine} alt="" />
-                </div>
+                </div> */}
 
                     </div>
                 </div>

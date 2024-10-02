@@ -12,12 +12,13 @@
 .skillbox h1{
     text-align: center;
     padding: 20px 40px;
-    border: 5px solid #000000;
-    margin-top: 10px;
+    border:5px solid #000000;
+    margin-top: 40px;
     word-spacing: 10px;
     letter-spacing: 10px;
-    margin-left: -3rem;
-    font-weight: 550;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -40px;
 }
 .allskill{
     display: flex;
@@ -156,10 +157,11 @@
     padding-top: 11px;
 }
 .endline-skill{
-    text-align: center;
+   display: flex;
+   justify-content: center;
 }
 .endline-skill img{
     width: 10rem;
-    margin-left: -4rem;
+    margin-left: -6rem;
     padding-top: 2rem;
 }
